@@ -5,7 +5,6 @@ import Navbar from '../components/Navbar'
 import About from '../components/sections/About'
 import Projects from '../components/sections/Projects'
 import Contact from '../components/sections/Contact'
-import { ToastContainer } from 'react-toastify';
 
 export default function Home() {
   return (
@@ -17,12 +16,12 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main className=''>
         <Navbar/>
         <About/>
         <Projects/>
         <Contact/>
-        <ToastContainer/>
+        
       </main>
 
       <footer className={styles.footer}>
