@@ -1,8 +1,8 @@
 import React from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { Link } from 'react-scroll'
 
 function Navbar() {
-
     const linkedInLink = (
         <a className="linkedin-link" href="https://www.linkedin.com/in/junpengtnia/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin/>
@@ -41,9 +41,37 @@ function Navbar() {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
-                <li><a>About</a></li>
-                <li><a>Projects</a></li>
-                <li><a>Experience</a></li>
+
+                <Link 
+                    to="about" 
+                    spy={true} 
+                    smooth={true} 
+                    duration={1500} 
+                    // className='some-class' 
+                    // activeClass='some-active-class'
+                    >
+                        <li><a href='#about'>About</a></li> 
+                </Link>
+                <Link 
+                    to="projects" 
+                    spy={true} 
+                    smooth={true} 
+                    duration={1500} 
+                    // className='some-class' 
+                    // activeClass='some-active-class'
+                    >
+                    <li><a>Projects</a></li>
+                </Link>
+                    <Link 
+                        to="contact" 
+                        spy={true} 
+                        smooth={true} 
+                        duration={1500} 
+                        // className='some-class' 
+                        // activeClass='some-active-class'
+                    >
+                       <li><a>Contact</a></li> 
+                    </Link>
                 </ul>
             </div>
             <div className="navbar-end text-3xl gap-5 mr-2">
