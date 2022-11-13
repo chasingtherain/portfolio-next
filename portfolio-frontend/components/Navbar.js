@@ -1,8 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link } from 'react-scroll'
+import { useDetectScroll } from "@smakss/react-scroll-direction";
 
 function Navbar() {
+
+    const [scrollDirection, setScrollDirection] = useState(false)
+    const [scrollDir] = useDetectScroll({});
+    const [navBarClass, setNavBarClass] = useState()
+
+    useEffect(()=>{
+        setScrollDirection(scrollDir)
+    },[scrollDir])
+    
     const linkedInLink = (
         <a className="linkedin-link" href="https://www.linkedin.com/in/junpengtnia/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin/>
@@ -16,7 +26,7 @@ function Navbar() {
     )
 
     return (
-        <div className="navbar bg-base-100">
+        <div className={(scrollDirection === "up") ? `navbar sticky top-0 z-10 bg-base-100` : `navbar z-10 bg-base-100`}>
             <div className="navbar-start">
                 <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">

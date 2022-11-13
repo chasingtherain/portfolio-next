@@ -5,7 +5,7 @@ import { FiExternalLink, FiFolder } from 'react-icons/fi'
 function Project({data}) {
 
     return (
-            <div className="card w-96 bg-base-200 shadow-xl">
+            <div className="card w-96 bg-base-200 shadow-xl z-0">
                 <div className="card-body">
                     <div className='flex justify-around gap-56'>
                         <a className="flex justify-start text-4xl" href="" target="_blank" rel="noopener noreferrer">
