@@ -22,8 +22,8 @@ const data = [
     },
     {
     title: "Portfolio Website",
-    description: "A repository of my projects",
-    stack: ["React", "Next.js", "Tailwind CSS", "Framer"],
+    description: "My personal repo",
+    stack: ["React", "Next.js", "Tailwind CSS"],
     repo: "https://github.com/chasingtherain/portfolio-next",
     liveSite: null
     }

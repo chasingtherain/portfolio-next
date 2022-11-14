@@ -30,7 +30,7 @@ function About() {
                     cursor={true}
                     repeat={Infinity}
                     style={{textAlign: "center" }}
-                    className="text-4xl my-20 whitespace-pre-line text-sky-300"
+                    className="text-5xl my-20 whitespace-pre-line text-sky-300"
                     speed="5"
                     deletionSpeed="10"
                     />

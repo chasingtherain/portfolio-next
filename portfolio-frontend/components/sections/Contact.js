@@ -40,18 +40,18 @@ function Contact() {
     }
     return (
         <div>
-            <Element id='contact' name='contact'>
+            <Element name='contact'>
                 <p className='text-center text-[28px] text-sky-300'>Get In Touch</p>
             </Element>
-            <div className='bg-base-200 border-2 mt-6 mx-6 md:mx-64 rounded-md'>
+            <div className='bg-base-700 mx-6 md:mx-64 rounded-md'>
                 <form className='flex flex-col md:mx-56' ref={form} onSubmit={sendEmail} onChange={()=> setIsDisabled(false)}>
                     <label className='mx-6 mt-12'>Name</label>
-                    <input className='input my-2 mx-6' type="text" name="user_name" value={name} onChange={(e)=> setName(e.target.value)}/>
+                    <input className='input my-2 mx-6 bg-slate-50 rounded-md text-black' type="text" name="user_name" value={name} onChange={(e)=> setName(e.target.value)}/>
                     <label className='mx-6'>Email</label>
-                    <input className='input my-2 mx-6' type="email" name="user_email" value={email} onChange={(e)=> setEmail(e.target.value)}/>
+                    <input className='input my-2 mx-6 bg-slate-50 rounded-md text-black' type="email" name="user_email" value={email} onChange={(e)=> setEmail(e.target.value)}/>
                     <label className='mx-6'>Message</label>
-                    <textarea className='bg-base-100 my-2 mx-6' rows="3" name="message" value={message} onChange={(e)=> setMessage(e.target.value)} />
-                    <button className={`btn bg-sky-400 text-white my-6 ${isLoading}`} disabled={isDisabled} type="submit">
+                    <textarea className='bg-base-100 my-2 mx-6 bg-slate-50 rounded-md text-black' rows="3" name="message" value={message} onChange={(e)=> setMessage(e.target.value)} />
+                    <button className={`btn bg-sky-300 text-white my-6 mx-6 rounded-md ${isLoading} hover:bg-green-700`} disabled={isDisabled} type="submit">
                         Send
                     </button>
                 </form>

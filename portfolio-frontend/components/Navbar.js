@@ -65,12 +65,13 @@ function Navbar() {
                     </li>
                 </ul>
                 </div>
-                <Link 
-                    className="uppercase text-2xl mx-5 text-sky-300 semibold hover:text-sky-900 hover:cursor-pointer"
-                    href="/"
-                    >
-                        JP
-                </Link>
+                <ScrollLink 
+                            to="about" 
+                            smooth={true} 
+                            duration={1500}
+                            >
+                    <span className='hover:text-sky-100 hover:cursor-pointer text-2xl mx-5 text-sky-300 font-semibold hover:text-sky-900 hover:cursor-pointer'>JP</span>
+                </ScrollLink>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal gap-8">
