@@ -17,9 +17,11 @@ function About() {
                         'Hi, I am JP. \nI develop apps with\nReact', 2750,
                         'Hi, I am JP. \nI develop apps with\nNode', 2750,
                         'Hi, I am JP. \nI develop apps with\nNext', 2750,
-                        'Hi, I am JP. \nI develop apps with\nTailwind', 2750,
-                        'Hi, I am JP. \nI develop apps with\nFirebase', 2750,
+                        'Hi, I am JP. \nI develop apps with\nJest', 2750,
                         'Hi, I am JP. \nI develop apps with\nMongoDB', 2750,
+                        'Hi, I am JP. \nI develop apps with\nFirebase', 2750,
+                        'Hi, I am JP. \nI develop apps with\nTailwind', 2750,
+                        'Hi, I am JP. \nI develop apps with\nMaterial UI', 2750,
                         () => {
                         console.log('Done typing!');
                         }

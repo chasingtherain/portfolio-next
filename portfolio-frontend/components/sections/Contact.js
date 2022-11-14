@@ -15,6 +15,9 @@ function Contact() {
 
     const sendEmail = (e) => {
         e.preventDefault();
+        if(name === "" || email === "") {
+            return toast.warning("Fill in all blanks!")
+        }
         setIsLoading("loading")
         console.log("email sent!")
         emailjs.sendForm('service_3jcixii', 'template_718m4ml', form.current, '3bT_6TR-kXdoEnPD-')
@@ -38,7 +41,7 @@ function Contact() {
     return (
         <div>
             <Element id='contact' name='contact'>
-                <p className='text-center text-3xl'>Get In Touch</p>
+                <p className='text-center text-[28px] text-sky-300'>Get In Touch</p>
             </Element>
             <div className='bg-base-200 border-2 mt-6 mx-6 md:mx-64 rounded-md'>
                 <form className='flex flex-col md:mx-56' ref={form} onSubmit={sendEmail} onChange={()=> setIsDisabled(false)}>
