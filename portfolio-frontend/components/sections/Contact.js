@@ -36,22 +36,24 @@ function Contact() {
         });
     }
     return (
-        <Element id='contact' name='contact'>
-            <div className='card border-2 mt-6 mx-64 bg-slate-900'>
-                <p className='text-center text-3xl mt-8'>Get In Touch</p>
-                <form className='flex flex-col mx-56' ref={form} onSubmit={sendEmail} onChange={()=> setIsDisabled(false)}>
-                    <label>Name</label>
-                    <input className='input my-2' type="text" name="user_name" value={name} onChange={(e)=> setName(e.target.value)}/>
-                    <label>Email</label>
-                    <input className='input my-2' type="email" name="user_email" value={email} onChange={(e)=> setEmail(e.target.value)}/>
-                    <label>Message</label>
-                    <textarea className='bg-base-100 my-2' rows="3" name="message" value={message} onChange={(e)=> setMessage(e.target.value)} />
+        <div>
+            <Element id='contact' name='contact'>
+                <p className='text-center text-3xl'>Get In Touch</p>
+            </Element>
+            <div className='bg-base-200 border-2 mt-6 mx-6 md:mx-64 rounded-md'>
+                <form className='flex flex-col md:mx-56' ref={form} onSubmit={sendEmail} onChange={()=> setIsDisabled(false)}>
+                    <label className='mx-6 mt-12'>Name</label>
+                    <input className='input my-2 mx-6' type="text" name="user_name" value={name} onChange={(e)=> setName(e.target.value)}/>
+                    <label className='mx-6'>Email</label>
+                    <input className='input my-2 mx-6' type="email" name="user_email" value={email} onChange={(e)=> setEmail(e.target.value)}/>
+                    <label className='mx-6'>Message</label>
+                    <textarea className='bg-base-100 my-2 mx-6' rows="3" name="message" value={message} onChange={(e)=> setMessage(e.target.value)} />
                     <button className={`btn bg-sky-400 text-white my-6 ${isLoading}`} disabled={isDisabled} type="submit">
                         Send
                     </button>
                 </form>
             </div>
-        </Element>
+        </div>
     )
 }
 

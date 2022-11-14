@@ -5,9 +5,9 @@ import { FiExternalLink, FiFolder } from 'react-icons/fi'
 function Project({data}) {
 
     return (
-            <div className="card w-96 bg-base-200 shadow-xl z-0">
+            <div className="card md:w-96 bg-base-200 shadow-xl z-0 mx-8 md:mx-0">
                 <div className="card-body">
-                    <div className='flex justify-around gap-56'>
+                    <div className='flex justify-around gap-36 md:gap-64'>
                         <a className="flex justify-start text-4xl" href="" target="_blank" rel="noopener noreferrer">
                             <FiFolder/>
                         </a>
@@ -17,7 +17,7 @@ function Project({data}) {
                         </div>
                     </div>
                     <h2 className="card-title">{data.title}</h2>
-                    <p className='mt-2'>{data.description}</p>
+                    <p className='mt-2 whitespace-pre-line'>{data.description}</p>
                     <div className="">
                         {data.stack.map((record, index) => <span key={index} class="badge text-slate-700 bg-sky-300 mx-1">{record}</span>)}
                     </div>

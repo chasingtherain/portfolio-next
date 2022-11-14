@@ -8,7 +8,7 @@ const data = [
     },
     {
     title: "Unesgo Explore",
-    description: "A mobile first app that keeps track of user's travelogues - unesco sites, peak points, theme parks, ski areas",
+    description: "A travel app that keeps track of user's travelogues - unesco sites, peak points,theme parks, ski areas",
     stack:["React", "Firebase", "Tailwind CSS"],
     repo: "https://github.com/chasingtherain/unesgo-explore",
     liveSite: "https://unesgoexplore.vercel.app/"
