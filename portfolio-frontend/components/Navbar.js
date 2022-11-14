@@ -7,7 +7,6 @@ function Navbar() {
 
     const [scrollDirection, setScrollDirection] = useState(false)
     const [scrollDir] = useDetectScroll({});
-    const [navBarClass, setNavBarClass] = useState()
 
     useEffect(()=>{
         setScrollDirection(scrollDir)
@@ -26,7 +25,7 @@ function Navbar() {
     )
 
     return (
-        <div className={(scrollDirection === "up") ? `navbar sticky top-0 z-10 bg-base-100` : `navbar z-10 bg-base-100`}>
+        <div className={`navbar z-10 bg-base-100 ${(scrollDirection === "up") ? "sticky top-0 transition-all duration-700 opacity-100": "opacity-0"}`}>
             <div className="navbar-start">
                 <div className="dropdown">
                 <label tabIndex={0} className="btn btn-ghost lg:hidden">
