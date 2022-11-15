@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaGithub } from 'react-icons/fa';
 import { FiExternalLink, FiFolder } from 'react-icons/fi'
+import { BiLink } from 'react-icons/bi'
 
 function Project({data}) {
 
@@ -14,6 +15,7 @@ function Project({data}) {
                         <div className='flex gap-3 text-2xl mt-2'>
                             {data.liveSite && <a className="" href={data.liveSite} target="_blank" rel="noopener noreferrer"><FiExternalLink/></a>}
                             {data.repo && <a className="" href={data.repo} target="_blank" rel="noopener noreferrer"><FaGithub /></a>}
+                            {data.deck && <a className="" href={data.deck} target="_blank" rel="noopener noreferrer"><BiLink /></a>}
                         </div>
                     </div>
                     <h2 className="card-title">{data.title}</h2>

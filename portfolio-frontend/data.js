@@ -4,6 +4,7 @@ const data = [
     description: "A leave management system built with MERN stack that enable teams to keep track of leave applications",
     stack: ["React","Express", "Node","MongoDB","Tailwind CSS"],
     repo: null,
+    deck: "https://docs.google.com/presentation/d/1zI_5tlsEWro4H2Z4jx-zqPo4QSiwqYXOSZxQ7XXVQWg/edit?usp=sharing",
     liveSite: "https://leaveplans.vercel.app/login"
     },
     {
