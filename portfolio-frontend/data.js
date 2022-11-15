@@ -10,7 +10,7 @@ const data = [
     {
     title: "Unesgo Explore",
     description: "A travel app that keeps track of user's travelogues - unesco sites, peak points,theme parks, ski areas",
-    stack:["React", "Firebase", "Tailwind CSS"],
+    stack:["React", "Firebase", "Tailwind CSS", "Jest"],
     repo: "https://github.com/chasingtherain/unesgo-explore",
     liveSite: "https://unesgoexplore.vercel.app/"
     },
@@ -20,6 +20,13 @@ const data = [
     stack: ["React", "Material UI"],
     repo: "https://github.com/chasingtherain/remind-me",
     liveSite: null
+    },
+    {
+    title: "Instant Messenger UI Clone",
+    description: "An instant messaging platform clone",
+    stack: ["React", "Tailwind CSS", "Jest"],
+    repo: "https://github.com/chasingtherain/messenger",
+    liveSite: "https://instantmessenger.vercel.app/"
     },
     {
     title: "Portfolio Website",
