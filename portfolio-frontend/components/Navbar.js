@@ -25,6 +25,12 @@ function Navbar() {
         </a>
     )
 
+    const resumeLink = (
+        <a className="hover:text-sky-300 hover:cursor-pointer" href="https://resume.showwcase.com/chasingtherain.pdf" target="_blank" rel="noopener noreferrer">
+            <button className='btn btn-sm bg-sky-500 text-white mb-2'>Resume</button>
+        </a>
+    )
+
     return (
         <div className={`navbar z-10 bg-base-100 ${(scrollDirection !== "down") ? "sticky top-0 transition-all duration-700 opacity-100": "opacity-0"}`}>
             <div className="navbar-start">
@@ -101,7 +107,8 @@ function Navbar() {
                 </ScrollLink>
                 </ul>
             </div>
-            <div className="navbar-end text-3xl gap-5 mr-2">
+            <div className="navbar-end text-3xl gap-4 mr-2">
+                {resumeLink}
                 {linkedInLink}
                 {githubLink}
             </div>
