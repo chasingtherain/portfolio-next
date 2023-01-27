@@ -9,7 +9,7 @@ function Project({data}) {
             <div className="card md:w-96 md:h-72 bg-base-200 shadow-xl z-0 mx-8 md:mx-0">
                 <div className="card-body">
                     <div className='flex justify-around gap-36 md:gap-64'>
-                        <a className="flex justify-start text-4xl" href="" target="_blank" rel="noopener noreferrer">
+                        <a className="flex justify-start text-4xl">
                             <FiFolder/>
                         </a>
                         <div className='flex gap-3 text-2xl mt-2'>
