@@ -22,7 +22,7 @@ const data = [
     liveSite: null
     },
     {
-    title: "Happy Partner, Happy Life",
+    title: "Better Partner",
     description: "An app that enables user to rate their partner's behavior for the day. Over time, app can measure couple's relationship health",
     stack: ["React Native", "GraphQL"],
     repo: "https://github.com/chasingtherain/happy-partner",
