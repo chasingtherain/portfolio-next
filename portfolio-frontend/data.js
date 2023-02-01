@@ -15,6 +15,13 @@ const data = [
     liveSite: "https://unesgoexplore.vercel.app/"
     },
     {
+      title: "Blockbuster",
+      description: "An app that recommends popular TV shows and movies to users based on IMDB ratings",
+      stack: ["React", "React Query","Zustand", "MUI", "Vite"],
+      repo: "https://github.com/chasingtherain/what-to-watch",
+      liveSite: null
+    },
+    {
     title: "Keep me in the Loop",
     description: "An email reminder service that allow users to remind themselves or others of important things in life",
     stack: ["React", "Material UI"],
@@ -42,6 +49,7 @@ const data = [
     repo: "https://github.com/chasingtherain/portfolio-next",
     liveSite: null
     }
+
 ]
   
   module.exports = data
