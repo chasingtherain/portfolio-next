@@ -41,7 +41,7 @@ function Contact() {
     return (
         <div>
             <Element name='contact'>
-                <p className='text-center text-[28px] text-sky-300'>Get In Touch</p>
+                <p className='text-center text-[28px] text-sky-300 mt-12'>Get In Touch</p>
             </Element>
             <div className='bg-base-700 mx-6 md:mx-64 rounded-md'>
                 <form className='flex flex-col md:mx-56' ref={form} onSubmit={sendEmail} onChange={()=> setIsDisabled(false)}>
