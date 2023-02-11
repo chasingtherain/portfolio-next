@@ -1,7 +1,7 @@
 const data = [
     {
     title: "Leave Plans",
-    description: "A leave management system built with MERN stack that enable teams to keep track of leave applications",
+    description: "A leave management system that enable teams to keep track of leave applications",
     stack: ["React","Express", "Node","MongoDB","Tailwind CSS"],
     repo: "https://github.com/chasingtherain/leave-management/",
     deck: "https://docs.google.com/presentation/d/1zI_5tlsEWro4H2Z4jx-zqPo4QSiwqYXOSZxQ7XXVQWg/edit?usp=sharing",
@@ -9,7 +9,7 @@ const data = [
     },
     {
     title: "Unesgo Explore",
-    description: "A travel app that keeps track of user's travelogues - unesco sites, peak points,theme parks, ski areas",
+    description: "A travel app that keeps track of user's travelogues - unesco sites, peak points, theme parks, ski areas etc",
     stack:["React", "Firebase", "Tailwind CSS", "Jest"],
     repo: "https://github.com/chasingtherain/unesgo-explore",
     liveSite: "https://unesgoexplore.vercel.app/"
@@ -30,7 +30,7 @@ const data = [
     },
     {
     title: "Better Partner",
-    description: "An app that enables user to rate their partner's behavior for the day. Over time, app can measure couple's relationship health",
+    description: "An app that enables user to rate their partner's behavior. Over time, app can measure couple's relationship health",
     stack: ["React Native", "GraphQL"],
     repo: "https://github.com/chasingtherain/happy-partner",
     liveSite: null

@@ -22,9 +22,6 @@ function About() {
                         'Hi, I am JP. \nI develop apps with\nFirebase', 2750,
                         'Hi, I am JP. \nI develop apps with\nTailwind', 2750,
                         'Hi, I am JP. \nI develop apps with\nMaterial UI', 2750,
-                        () => {
-                        console.log('Done typing!');
-                        }
                     ]}
                     wrapper="div"
                     cursor={true}

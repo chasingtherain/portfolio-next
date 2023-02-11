@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { Link as ScrollLink } from 'react-scroll'
 import { useDetectScroll } from "@smakss/react-scroll-direction";
-import Link from 'next/link'
 
 function Navbar() {
 
@@ -61,6 +60,16 @@ function Navbar() {
                     </li>
                     <li>
                         <ScrollLink
+                            to="opensource"
+                            spy={true}
+                            smooth={true}
+                            duration={1500}
+                        >
+                            <span className='hover:text-sky-300 hover:cursor-pointer'>Open Source</span>
+                        </ScrollLink>
+                    </li>
+                    <li>
+                        <ScrollLink
                             to="contact"
                             spy={true}
                             smooth={true}
@@ -96,6 +105,14 @@ function Navbar() {
                     duration={1500} 
                     >
                     <span className='hover:text-sky-300 hover:cursor-pointer'>Projects</span>
+                </ScrollLink>
+                <ScrollLink 
+                    to="opensource" 
+                    spy={true} 
+                    smooth={true} 
+                    duration={1500} 
+                >
+                    <span className='hover:text-sky-300 hover:cursor-pointer'>Open Source</span>
                 </ScrollLink>
                 <ScrollLink 
                     to="contact" 

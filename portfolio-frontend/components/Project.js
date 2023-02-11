@@ -21,7 +21,7 @@ function Project({data}) {
                     <h2 className="card-title my-4">{data.title}</h2>
                     <p className='whitespace-pre-line'>{data.description}</p>
                     <div className="mt-2">
-                        {data.stack.map((record, index) => <span key={index} class="badge text-slate-700 bg-sky-300 mx-1">{record}</span>)}
+                        {data.stack.map((record, index) => <span key={index} className="badge text-slate-700 bg-sky-300 mx-1">{record}</span>)}
                     </div>
                 </div>
             </div>
