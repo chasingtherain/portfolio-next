@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../../data'
+import data from '../../data/projectData'
 import Project from '../../components/Project'
 import { Element } from 'react-scroll'
 

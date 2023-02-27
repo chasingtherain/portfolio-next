@@ -1,7 +1,4 @@
 import React from 'react'
-import { FaGithub } from 'react-icons/fa';
-import { FiExternalLink, FiFolder } from 'react-icons/fi'
-import { BiLink } from 'react-icons/bi'
 import { Element } from 'react-scroll';
 
 function OpenSource() {

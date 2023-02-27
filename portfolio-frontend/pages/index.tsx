@@ -7,6 +7,7 @@ import Projects from '../components/sections/Projects'
 import Contact from '../components/sections/Contact'
 import Stack from '../components/sections/Stack'
 import OpenSource from '../components/sections/OpenSource'
+import Foundation from '../components/sections/Foundation'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <Stack/>
         <Projects/>
         <OpenSource/>
+        <Foundation/>
         <Contact/>
       </main>
 
