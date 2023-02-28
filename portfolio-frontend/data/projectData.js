@@ -10,7 +10,7 @@ const data = [
     {
     title: "Unesgo Explore",
     description: "A travel app that keeps track of user's travelogues - unesco sites, peak points, theme parks, ski areas etc",
-    stack:["React", "Firebase", "Tailwind CSS", "Jest"],
+    stack:["React", "React Query", "Firebase", "Tailwind CSS", "Jest"],
     repo: "https://github.com/chasingtherain/unesgo-explore",
     liveSite: "https://unesgoexplore.vercel.app/"
     },
@@ -28,20 +28,20 @@ const data = [
     repo: "https://github.com/chasingtherain/remind-me",
     liveSite: null
     },
-    {
-    title: "Better Partner",
-    description: "An app that enables user to rate their partner's behavior. Over time, app can measure couple's relationship health",
-    stack: ["React Native", "GraphQL"],
-    repo: "https://github.com/chasingtherain/happy-partner",
-    liveSite: null
-    },
-    {
-    title: "Instant Messenger UI Clone",
-    description: "An instant messaging platform clone",
-    stack: ["React", "Tailwind CSS", "Jest"],
-    repo: "https://github.com/chasingtherain/messenger",
-    liveSite: "https://instantmessenger.vercel.app/"
-    },
+    // {
+    // title: "Better Partner",
+    // description: "An app that enables user to rate their partner's behavior. Over time, app can measure couple's relationship health",
+    // stack: ["React Native", "GraphQL"],
+    // repo: "https://github.com/chasingtherain/happy-partner",
+    // liveSite: null
+    // },
+    // {
+    // title: "Instant Messenger UI Clone",
+    // description: "An instant messaging platform clone",
+    // stack: ["React", "Tailwind CSS", "Jest"],
+    // repo: "https://github.com/chasingtherain/messenger",
+    // liveSite: "https://instantmessenger.vercel.app/"
+    // },
     {
     title: "Portfolio Website",
     description: "My personal repo",
