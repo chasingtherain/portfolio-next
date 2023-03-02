@@ -8,10 +8,11 @@ const data = [
     liveSite: "https://leaveplans.vercel.app/login"
     },
     {
-    title: "Unesgo Explore",
+    title: "Go Explore",
     description: "A travel app that keeps track of user's travelogues - unesco sites, peak points, theme parks, ski areas etc",
     stack:["React", "React Query", "Firebase", "Tailwind CSS", "Jest"],
     repo: "https://github.com/chasingtherain/unesgo-explore",
+    deck: "https://docs.google.com/presentation/d/1q8QFDQM9px4jS1U1ZgrUpdLv48FMazI3tiqm2d46P_E/edit?usp=sharing",
     liveSite: "https://unesgoexplore.vercel.app/"
     },
     {
