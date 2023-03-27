@@ -3,7 +3,7 @@ import { TiledHexagons } from 'tiled-hexagons'
 
 function Stack() {
     const iconRowOne = ['javascript','reactjs','nodejs', 'react-query','next']
-    const iconRowTwo = ['firebase','mongodb','graphql', 'tailwind','jest']
+    const iconRowTwo = ['firebase','mongodb','postgres', 'tailwind','jest']
     // const iconRowThree = []
     
     const [screenWidth, setScreenWidth] = useState()

@@ -18,9 +18,10 @@ function About() {
                         'Hi, I am JP. \nI develop apps with\nNode', 2700,
                         'Hi, I am JP. \nI develop apps with\nReact Query', 2700,
                         'Hi, I am JP. \nI develop apps with\nNext', 2700,
+                        'Hi, I am JP. \nI develop apps with\nPostgres', 2700,
                         'Hi, I am JP. \nI develop apps with\nFirebase', 2700,
                         'Hi, I am JP. \nI develop apps with\nMongoDB', 2700,
-                        'Hi, I am JP. \nI develop apps with\nGraphQL', 2700,
+                        // 'Hi, I am JP. \nI develop apps with\nGraphQL', 2700,
                         'Hi, I am JP. \nI develop apps with\nTailwind', 2700,
                         'Hi, I am JP. \nI develop apps with\nJest', 2700,
                     ]}
