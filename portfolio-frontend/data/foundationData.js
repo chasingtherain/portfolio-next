@@ -18,7 +18,7 @@ const foundationData = [
     title: "System Design",
     description: "Coming soon",
     courses: [
-      {name: "GreatFrontEnd System Design Prep", "url":"https://www.greatfrontend.com/"},
+      {name: "GreatFrontEnd System Design Course", "url":"https://www.greatfrontend.com/"},
     ]
     },
 ]
