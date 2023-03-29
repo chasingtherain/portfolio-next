@@ -20,7 +20,7 @@ const data = [
     description: "An email reminder service that allow users to remind themselves or others of important things in life",
     stack: ["React", "Postgres", "Material UI"],
     repo: "https://github.com/chasingtherain/remind-me",
-    liveSite: null
+    liveSite: "https://sendmeareminder.vercel.app/"
     },
     {
       title: "Blockbuster",
