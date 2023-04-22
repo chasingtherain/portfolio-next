@@ -7,7 +7,7 @@ function OpenSource() {
     return (
         <div className=''>
             <Element name='opensource'>
-                <p className='text-[28px] text-center my-6 text-sky-300'>Open Source Contributions</p>
+                <p className='text-[28px] text-center my-8 text-sky-300'>Open Source Contributions</p>
             </Element>
             <div className="card w-4/5 md:w-1/4 md:h-72 bg-base-200 flex mx-auto">
                 <div className="card-body">

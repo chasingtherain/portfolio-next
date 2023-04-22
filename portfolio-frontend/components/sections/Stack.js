@@ -25,7 +25,7 @@ function Stack() {
 
     return (
     <div className='my-24'>
-        <p className='text-center text-[28px] text-sky-300 font-semibold mb-10'>Tech Stack</p>
+        <p className='text-center text-[28px] text-sky-300 font-semibold mb-8'>Tech Stack</p>
         <span className='flex flex-wrap justify-center'>
             <TiledHexagons
                 maxHorizontal={10}

@@ -41,9 +41,9 @@ function Contact() {
     return (
         <div>
             <Element name='contact'>
-                <p className='text-center text-[28px] text-sky-300 mt-12'>Get In Touch</p>
+                <p className='text-center text-[28px] text-sky-300'>Get In Touch</p>
             </Element>
-            <div className='bg-base-700 mx-6 md:mx-64 rounded-md'>
+            <div className='bg-base-700 md:mx-64 rounded-md'>
                 <form className='flex flex-col md:mx-56' ref={form} onSubmit={sendEmail} onChange={()=> setIsDisabled(false)}>
                     <label className='mx-6 mt-12'>Name</label>
                     <input className='input my-2 mx-6 bg-slate-50 rounded-md text-black' type="text" name="user_name" value={name} onChange={(e)=> setName(e.target.value)}/>

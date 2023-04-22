@@ -23,12 +23,19 @@ const data = [
     liveSite: "https://sendmeareminder.vercel.app/"
     },
     {
-      title: "Blockbuster",
-      description: "An app that recommends popular TV shows and movies to users based on IMDB ratings",
-      stack: ["React", "React Query","Zustand", "MUI", "Vite"],
-      repo: "https://github.com/chasingtherain/what-to-watch",
-      liveSite: null
+    title: "Better Daily",
+    description: "A journal to reflect, practice gratefulness, gain momentum and get better daily.",
+    stack: ["React", "Next", "Postgres", "Radix UI", "Tailwind CSS"],
+    repo: "https://github.com/chasingtherain/better-daily",
+    liveSite: ""
     },
+    // {
+    //   title: "Blockbuster",
+    //   description: "An app that recommends popular TV shows and movies to users based on IMDB ratings",
+    //   stack: ["React", "React Query","Zustand", "MUI", "Vite"],
+    //   repo: "https://github.com/chasingtherain/what-to-watch",
+    //   liveSite: null
+    // },
     // {
     // title: "Better Partner",
     // description: "An app that enables user to rate their partner's behavior. Over time, app can measure couple's relationship health",
