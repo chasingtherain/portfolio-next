@@ -1,7 +1,13 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import { Element } from 'react-scroll'
-function About({textAnimation}) {
+
+
+interface AboutProps {
+    textAnimation: string[];
+}
+
+export default function About({textAnimation}:AboutProps) {
 
 
     return (
@@ -18,13 +24,11 @@ function About({textAnimation}) {
                     repeat={Infinity}
                     style={{textAlign: "center" }}
                     className="text-5xl my-20 whitespace-pre-line text-sky-300"
-                    speed="5"
-                    deletionSpeed="10"
+                    speed={5}
+                    deletionSpeed={10}
                     />
                 </div>
             </div>
         
     )
 }
-
-export default About
