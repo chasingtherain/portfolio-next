@@ -13,7 +13,7 @@ export const projectData = [
     stack:["React", "React Query", "Firebase", "Tailwind CSS", "Jest"],
     // repo: "https://github.com/chasingtherain/unesgo-explore",
     deck: "https://docs.google.com/presentation/d/1q8QFDQM9px4jS1U1ZgrUpdLv48FMazI3tiqm2d46P_E/edit?usp=sharing",
-    liveSite: "https://unesgoexplore.vercel.app/"
+    liveSite: "https://tracktravel.co/"
     },
     {
     title: "Remind Me",
@@ -25,7 +25,7 @@ export const projectData = [
     {
     title: "Better Daily",
     description: "A journal to reflect, practice gratefulness, gain momentum and get better daily.",
-    stack: ["React", "Next", "Postgres", "Radix UI", "Tailwind CSS"],
+    stack: ["React", "Next", "Typescript","Postgres", "Radix UI", "Tailwind CSS"],
     repo: "https://github.com/chasingtherain/better-daily",
     liveSite: ""
     },
@@ -53,7 +53,7 @@ export const projectData = [
     {
     title: "Portfolio Website",
     description: "My personal repo",
-    stack: ["React", "Next.js", "Tailwind CSS"],
+    stack: ["React", "Next", "Typescript", "Tailwind CSS"],
     repo: "https://github.com/chasingtherain/portfolio-next",
     liveSite: null
     }
