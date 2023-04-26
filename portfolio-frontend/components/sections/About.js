@@ -1,7 +1,7 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import { Element } from 'react-scroll'
-function About() {
+function About({textAnimation}) {
 
 
     return (
@@ -12,19 +12,7 @@ function About() {
                 </Element>
                 <div id='about'>
                     <TypeAnimation
-                    sequence={[
-                        'Hi, I am JP. \nI develop apps with\nJavascript', 2700,
-                        'Hi, I am JP. \nI develop apps with\nReact', 2700,
-                        'Hi, I am JP. \nI develop apps with\nNode', 2700,
-                        'Hi, I am JP. \nI develop apps with\nReact Query', 2700,
-                        'Hi, I am JP. \nI develop apps with\nNext', 2700,
-                        'Hi, I am JP. \nI develop apps with\nPostgres', 2700,
-                        'Hi, I am JP. \nI develop apps with\nFirebase', 2700,
-                        'Hi, I am JP. \nI develop apps with\nMongoDB', 2700,
-                        // 'Hi, I am JP. \nI develop apps with\nGraphQL', 2700,
-                        'Hi, I am JP. \nI develop apps with\nTailwind', 2700,
-                        'Hi, I am JP. \nI develop apps with\nJest', 2700,
-                    ]}
+                    sequence={textAnimation}
                     wrapper="div"
                     cursor={true}
                     repeat={Infinity}

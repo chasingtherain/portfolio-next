@@ -9,7 +9,10 @@ import Stack from '../components/sections/Stack'
 import OpenSource from '../components/sections/OpenSource'
 import Foundation from '../components/sections/Foundation'
 
-export default function Home() {
+export default function Home(
+  {textAnimation,iconRowOne,iconRowTwo} : {textAnimation: string[],iconRowOne:string[],iconRowTwo:string[]}) 
+  
+  {
   return (
     <div>
       
@@ -24,14 +27,13 @@ export default function Home() {
         <meta property="og:image" content="/favicon.ico"/>
         <meta property="og:url" content="https://chasingtherain.vercel.app/"/>
 
-
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className=''>
         <Navbar/>
-        <About/>
-        <Stack/>
+        <About textAnimation={textAnimation}/>
+        <Stack iconRowOne={iconRowOne} iconRowTwo={iconRowTwo}/>
         <Projects/>
         <OpenSource/>
         <Foundation/>
@@ -52,4 +54,32 @@ export default function Home() {
       </footer>
     </div>
   )
+}
+
+export async function getStaticProps(context) {
+
+  const textAnimation = [
+    'Hi, I am JP. \nI develop apps with\nJavascript', 2700,
+    'Hi, I am JP. \nI develop apps with\nReact', 2700,
+    'Hi, I am JP. \nI develop apps with\nNode', 2700,
+    'Hi, I am JP. \nI develop apps with\nReact Query', 2700,
+    'Hi, I am JP. \nI develop apps with\nNext', 2700,
+    'Hi, I am JP. \nI develop apps with\nPostgres', 2700,
+    'Hi, I am JP. \nI develop apps with\nFirebase', 2700,
+    'Hi, I am JP. \nI develop apps with\nMongoDB', 2700,
+    // 'Hi, I am JP. \nI develop apps with\nGraphQL', 2700,
+    'Hi, I am JP. \nI develop apps with\nTailwind', 2700,
+    'Hi, I am JP. \nI develop apps with\nJest', 2700,
+]
+
+  const iconRowOne = ['javascript','reactjs','nodejs', 'react-query','next']
+  const iconRowTwo = ['firebase','mongodb','postgres', 'tailwind','jest']
+  
+  return {
+    props: {
+      iconRowOne,
+      iconRowTwo,
+      textAnimation
+    },
+  }
 }

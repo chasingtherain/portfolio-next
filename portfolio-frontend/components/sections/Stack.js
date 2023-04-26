@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { TiledHexagons } from 'tiled-hexagons'
 
-function Stack() {
-    const iconRowOne = ['javascript','reactjs','nodejs', 'react-query','next']
-    const iconRowTwo = ['firebase','mongodb','postgres', 'tailwind','jest']
-    // const iconRowThree = []
+function Stack({iconRowOne,iconRowTwo}) {
     
     const [screenWidth, setScreenWidth] = useState()
     const handleWindowSizeChange = () => {
@@ -46,16 +43,6 @@ function Stack() {
                 tiles={iconRowTwo.map(icon => {return { img: `/assets/${icon}.svg` }})}
             />
         </span>
-        {/* <span className='flex flex-wrap justify-center'>
-            <TiledHexagons
-                maxHorizontal={10}
-                tileSideLengths={(screenWidth <= 1000) ? 40 : 60}
-                tileElevations={8}
-                tileGap={(screenWidth <= 1000) ? 5 : 10}
-                tileBorderRadii={4}
-                tiles={iconRowThree.map(icon => {return { img: `/assets/${icon}.svg` }})}
-            />
-        </span> */}
     </div>
     )
     }
