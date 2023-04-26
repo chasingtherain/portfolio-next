@@ -1,4 +1,4 @@
-const data = [
+export const projectData = [
     {
     title: "Leave Plans",
     description: "A leave management system that enable teams to keep track of leave applications",
@@ -59,5 +59,3 @@ const data = [
     }
 
 ]
-  
-  module.exports = data

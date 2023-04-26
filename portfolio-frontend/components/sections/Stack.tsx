@@ -1,9 +1,14 @@
 import React, { useState, useEffect } from 'react'
 import { TiledHexagons } from 'tiled-hexagons'
 
-function Stack({iconRowOne,iconRowTwo}) {
+interface StackProps {
+    iconRowOne:string[],
+    iconRowTwo:string[]
+}
+
+function Stack({iconRowOne,iconRowTwo}: StackProps) {
     
-    const [screenWidth, setScreenWidth] = useState()
+    const [screenWidth, setScreenWidth] = useState<number>(0)
     const handleWindowSizeChange = () => {
         setScreenWidth(window.innerWidth);
     }

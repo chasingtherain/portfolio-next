@@ -1,6 +1,7 @@
 import React from 'react'
+import { foundationData } from '../../data/foundationData'
 import FoundationCard from '../FoundationCard'
-import foundationData from '../../data/foundationData'
+
 
 function Foundation() {
   return (

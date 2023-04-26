@@ -1,4 +1,4 @@
-const foundationData = [
+export const foundationData = [
     {
     title: "Data Structure & Algo",
     description: "Coming soon",
@@ -23,5 +23,3 @@ const foundationData = [
     ]
     },
 ]
-  
-  module.exports = foundationData

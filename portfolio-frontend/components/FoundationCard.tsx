@@ -1,6 +1,19 @@
 import React from 'react'
 
-function FoundationCard({foundationData}) {
+type Course = {
+  name: string;
+  url: string;
+}
+
+interface FoundationCardProps {
+  foundationData: {
+      title: string,
+      description: string,
+      courses: Course[]
+  }
+}
+
+function FoundationCard({foundationData}: FoundationCardProps) {
   return (
     <div className="card w-80 h-60 md:w-96 md:h-72 bg-base-200 shadow-xl z-0 mx-8 md:mx-0">
     <div className="card-body">
