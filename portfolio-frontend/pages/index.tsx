@@ -59,10 +59,11 @@ export default function Home(
 export async function getStaticProps(context) {
 
   const textAnimation = [
+    'Hi, I am JP. \nI develop apps with\nTypescript', 2700,
     'Hi, I am JP. \nI develop apps with\nJavascript', 2700,
     'Hi, I am JP. \nI develop apps with\nReact', 2700,
     'Hi, I am JP. \nI develop apps with\nNode', 2700,
-    'Hi, I am JP. \nI develop apps with\nReact Query', 2700,
+    // 'Hi, I am JP. \nI develop apps with\nReact Query', 2700,
     'Hi, I am JP. \nI develop apps with\nNext', 2700,
     'Hi, I am JP. \nI develop apps with\nPostgres', 2700,
     'Hi, I am JP. \nI develop apps with\nFirebase', 2700,
@@ -72,7 +73,7 @@ export async function getStaticProps(context) {
     'Hi, I am JP. \nI develop apps with\nJest', 2700,
 ]
 
-  const iconRowOne = ['javascript','reactjs','nodejs', 'react-query','next']
+  const iconRowOne = ['typescript','javascript','reactjs','nodejs','next']
   const iconRowTwo = ['firebase','mongodb','postgres', 'tailwind','jest']
   
   return {
