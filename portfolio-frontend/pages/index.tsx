@@ -56,7 +56,7 @@ export default function Home(
   )
 }
 
-export async function getStaticProps(context) {
+export async function getStaticProps() {
 
   const textAnimation = [
     'Hi, I am JP. \nI develop apps with\nTypescript', 2700,
