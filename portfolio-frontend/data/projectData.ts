@@ -27,7 +27,7 @@ export const projectData = [
     description: "A journal to reflect, practice gratefulness, gain momentum and get better daily.",
     stack: ["React", "Next", "Typescript","Postgres", "Radix UI", "Tailwind CSS"],
     repo: "https://github.com/chasingtherain/better-daily",
-    liveSite: ""
+    liveSite: "https://better-daily.vercel.app/"
     },
     // {
     //   title: "Blockbuster",
