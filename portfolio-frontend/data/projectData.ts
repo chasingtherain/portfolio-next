@@ -24,10 +24,11 @@ export const projectData = [
     },
     {
     title: "Better Daily",
-    description: "A journal to reflect, practice gratefulness, gain momentum and get better daily.",
+    description: "A journal to help you reflect, improve and get better daily.",
     stack: ["React", "Next", "Typescript","Postgres", "Radix UI", "Tailwind CSS"],
     repo: "https://github.com/chasingtherain/better-daily",
-    liveSite: "https://better-daily.vercel.app/"
+    deck: "https://docs.google.com/presentation/d/14fDolZ_Qmv5V4GRzopHqVTuC3M1RH2Ia_TItmcdHuRo/edit?usp=sharing",
+    liveSite: "https://www.betterdailyjournal.com/"
     },
     // {
     //   title: "Blockbuster",
