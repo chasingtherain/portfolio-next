@@ -16,12 +16,12 @@ export const projectData = [
     liveSite: "https://tracktravel.co/"
     },
     {
-    title: "Remind Me",
-    description: "An email reminder service that allow users to remind themselves or others of important things in life",
-    stack: ["React", "Postgres", "Material UI"],
-    repo: "https://github.com/chasingtherain/remind-me",
-    liveSite: "https://sendmeareminder.vercel.app/"
-    },
+    // title: "Remind Me",
+    // description: "An email reminder service that allow users to remind themselves or others of important things in life",
+    // stack: ["React", "Postgres", "Material UI"],
+    // repo: "https://github.com/chasingtherain/remind-me",
+    // liveSite: "https://sendmeareminder.vercel.app/"
+    // },
     {
     title: "Better Daily",
     description: "A journal to help you reflect, improve and get better daily.",
