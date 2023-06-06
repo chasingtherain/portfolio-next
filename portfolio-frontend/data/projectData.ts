@@ -1,7 +1,7 @@
 export const projectData = [
     {
     title: "Leave Plans",
-    description: "A leave management system that enable teams to keep track of leave applications",
+    description: "Enable teams to keep track of leave applications",
     stack: ["React","Express", "Node","MongoDB","Tailwind CSS"],
     repo: "https://github.com/chasingtherain/leave-management/",
     deck: "https://docs.google.com/presentation/d/1zI_5tlsEWro4H2Z4jx-zqPo4QSiwqYXOSZxQ7XXVQWg/edit?usp=sharing",
@@ -9,13 +9,13 @@ export const projectData = [
     },
     {
     title: "Track Travel",
-    description: "A travel app that keeps track of user's travelogues - unesco sites, peak points, theme parks, ski areas etc",
+    description: "Keeping track of user's travels - from unesco sites to theme parks",
     stack:["React", "React Query", "Firebase", "Tailwind CSS", "Jest"],
     // repo: "https://github.com/chasingtherain/unesgo-explore",
     deck: "https://docs.google.com/presentation/d/1q8QFDQM9px4jS1U1ZgrUpdLv48FMazI3tiqm2d46P_E/edit?usp=sharing",
     liveSite: "https://tracktravel.co/"
     },
-    {
+    // {
     // title: "Remind Me",
     // description: "An email reminder service that allow users to remind themselves or others of important things in life",
     // stack: ["React", "Postgres", "Material UI"],
@@ -24,7 +24,7 @@ export const projectData = [
     // },
     {
     title: "Better Daily",
-    description: "A journal to help you reflect, improve and get better daily.",
+    description: "An avenue for you to reflect, improve and get better daily.",
     stack: ["React", "Next", "Typescript","Postgres", "Radix UI", "Tailwind CSS"],
     repo: "https://github.com/chasingtherain/better-daily",
     deck: "https://docs.google.com/presentation/d/14fDolZ_Qmv5V4GRzopHqVTuC3M1RH2Ia_TItmcdHuRo/edit?usp=sharing",
