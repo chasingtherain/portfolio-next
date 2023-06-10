@@ -15,13 +15,13 @@ export const projectData = [
     deck: "https://docs.google.com/presentation/d/1q8QFDQM9px4jS1U1ZgrUpdLv48FMazI3tiqm2d46P_E/edit?usp=sharing",
     liveSite: "https://tracktravel.co/"
     },
-    // {
-    // title: "Remind Me",
-    // description: "An email reminder service that allow users to remind themselves or others of important things in life",
-    // stack: ["React", "Postgres", "Material UI"],
-    // repo: "https://github.com/chasingtherain/remind-me",
-    // liveSite: "https://sendmeareminder.vercel.app/"
-    // },
+    {
+    title: "Remind Me",
+    description: "An email reminder service that allow users to remind themselves or others of important things in life",
+    stack: ["Next", "Postgres", "Material UI"],
+    repo: "https://github.com/chasingtherain/remindme-next",
+    liveSite: "https://sendmeareminder.vercel.app/"
+    },
     {
     title: "Better Daily",
     description: "An avenue for you to reflect, improve and get better daily.",
