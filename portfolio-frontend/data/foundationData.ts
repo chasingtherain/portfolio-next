@@ -11,6 +11,7 @@ export const foundationData = [
     title: "Database",
     description: "Coming soon",
     courses: [
+      {name: "StrataScratch (solved >300 SQL problems)", "url":"https://platform.stratascratch.com/user/chasingrain"},
       {name: "SQL and PostgreSQL: Complete Developer's Guide", "url":"https://www.udemy.com/course/sql-and-postgresql/"},
       {name: "Fundamentals of Database Engineering", "url":"https://www.udemy.com/course/database-engines-crash-course/"},
     ]
