@@ -4,7 +4,7 @@ export const foundationData = [
     description: "Coming soon",
     courses: [
       {name: "Data Structure & Algo by Abdul Bari", "url":"https://www.udemy.com/course/datastructurescncpp/"},
-      {name: "LeetCode Profile", "url":"https://leetcode.com/chasingrain/"},
+      {name: "LeetCode (Solved >190 problems)", "url":"https://leetcode.com/chasingrain/"},
     ]
     },
     {
@@ -21,6 +21,7 @@ export const foundationData = [
     description: "Coming soon",
     courses: [
       {name: "GreatFrontEnd System Design Course", "url":"https://www.greatfrontend.com/"},
+      {name: "High Level System Architecture", "url":"https://www.udemy.com/course/system-design-a-comprehensive-guide/"},
     ]
     },
 ]
