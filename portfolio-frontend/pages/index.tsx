@@ -8,6 +8,7 @@ import Contact from '../components/sections/Contact'
 import Stack from '../components/sections/Stack'
 import OpenSource from '../components/sections/OpenSource'
 import Foundation from '../components/sections/Foundation'
+import Certification from '../components/sections/Certification'
 
 export default function Home(
   {textAnimation,iconRowOne,iconRowTwo} : {textAnimation: string[],iconRowOne:string[],iconRowTwo:string[]}) 
@@ -37,6 +38,7 @@ export default function Home(
         <Projects/>
         <OpenSource/>
         <Foundation/>
+        <Certification/>
         <Contact/>
       </main>
 
